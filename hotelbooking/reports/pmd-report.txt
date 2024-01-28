@@ -1,0 +1,174 @@
+src/main/java/com/parag/hrs/hotelbooking/HotelbookingApplication.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/HotelbookingApplication.java:7:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/parag/hrs/hotelbooking/HotelbookingApplication.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/HotelbookingApplication.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:25:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:25:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:28:	LongVariable:	LongVariable: Avoid excessively long variable names like reservationService
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:30:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "application/json" appears 5 times in this file; the first occurrence is on line 28
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bookingId' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:36:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:39:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bookingId' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:45:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:46:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:52:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/controller/ReservationController.java:52:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bookingId' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/controller/RoomController.java:20:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/parag/hrs/hotelbooking/controller/RoomController.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/parag/hrs/hotelbooking/controller/RoomController.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/controller/RoomController.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/controller/RoomController.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/controller/RoomController.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/controller/RoomController.java:32:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/controller/RoomController.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/controller/RoomController.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'hotel' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/controller/RoomController.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'hotels' could be declared final
+src/main/java/com/parag/hrs/hotelbooking/entity/HotelEntity.java:19:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/parag/hrs/hotelbooking/entity/HotelEntity.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/HotelEntity.java:19:	DataClass:	DataClass: The class 'HotelEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+src/main/java/com/parag/hrs/hotelbooking/entity/HotelEntity.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/HotelEntity.java:25:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/parag/hrs/hotelbooking/entity/HotelEntity.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/HotelEntity.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/HotelEntity.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/HotelEntity.java:41:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/entity/HotelEntity.java:41:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/parag/hrs/hotelbooking/entity/HotelEntity.java:49:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/entity/HotelEntity.java:57:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'address' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/entity/HotelEntity.java:65:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rooms' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:20:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:20:	DataClass:	DataClass: The class 'ReservationEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=12)
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:26:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:37:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:43:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'inDate' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:49:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'outDate' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'amount' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/entity/ReservationEntity.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/entity/RoomEntity.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/parag/hrs/hotelbooking/entity/RoomEntity.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/RoomEntity.java:18:	DataClass:	DataClass: The class 'RoomEntity' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+src/main/java/com/parag/hrs/hotelbooking/entity/RoomEntity.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/RoomEntity.java:24:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/parag/hrs/hotelbooking/entity/RoomEntity.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/RoomEntity.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/RoomEntity.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/entity/RoomEntity.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/entity/RoomEntity.java:40:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/parag/hrs/hotelbooking/entity/RoomEntity.java:44:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'roomType' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/entity/RoomEntity.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'price' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/entity/RoomEntity.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'hotel' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/enums/BookingStatus.java:3:	CommentRequired:	CommentRequired: Enum comments are required
+src/main/java/com/parag/hrs/hotelbooking/exception/HotelNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/exception/HotelNotFoundException.java:3:	DoNotExtendJavaLangThrowable:	DoNotExtendJavaLangThrowable: Exceptions should not extend java.lang.Throwable
+src/main/java/com/parag/hrs/hotelbooking/exception/HotelNotFoundException.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/exception/HotelNotFoundException.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/exception/HotelNotFoundException.java:8:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/exception/HotelNotFoundException.java:13:	MissingOverride:	MissingOverride: The method 'getMessage()' is missing an @Override annotation.
+src/main/java/com/parag/hrs/hotelbooking/exception/HotelNotFoundException.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/exception/ReservationExceptionHandler.java:9:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/parag/hrs/hotelbooking/exception/ReservationExceptionHandler.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/exception/ReservationExceptionHandler.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/exception/ReservationExceptionHandler.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/exception/ReservationExceptionHandler.java:12:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/parag/hrs/hotelbooking/exception/RoomNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/exception/RoomNotFoundException.java:3:	DataClass:	DataClass: The class 'RoomNotFoundException' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+src/main/java/com/parag/hrs/hotelbooking/exception/RoomNotFoundException.java:3:	DoNotExtendJavaLangThrowable:	DoNotExtendJavaLangThrowable: Exceptions should not extend java.lang.Throwable
+src/main/java/com/parag/hrs/hotelbooking/exception/RoomNotFoundException.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/exception/RoomNotFoundException.java:12:	MissingOverride:	MissingOverride: The method 'getMessage()' is missing an @Override annotation.
+src/main/java/com/parag/hrs/hotelbooking/exception/RoomNotFoundException.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/exception/RoomNotFoundException.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/exception/RoomNotFoundException.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/exception/RoomNotFoundException.java:20:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/parag/hrs/hotelbooking/exception/RoomNotFoundException.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'errorCode' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/exception/RoomNotFoundException.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/http/BookingResponse.java:3:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/parag/hrs/hotelbooking/http/BookingResponse.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:6:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:6:	DataClass:	DataClass: The class 'BookingRequest' is suspected to be a Data Class (WOC=28.571%, NOPA=0, NOAM=5, WMC=7)
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:20:	MethodReturnsInternalArray:	MethodReturnsInternalArray: Returning 'roomIds' may expose an internal array.
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'roomIds' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:22:	UseVarargs:	UseVarargs: Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:23:	ArrayIsStoredDirectly:	ArrayIsStoredDirectly: The user-supplied array 'roomIds' is stored directly.
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'checkOutDate' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'checkInDate' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/http/ReservationRequest.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'chechOutDate' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/http/RoomCreateRequest.java:4:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/parag/hrs/hotelbooking/http/RoomCreateRequest.java:4:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/http/RoomCreateRequest.java:4:	DataClass:	DataClass: The class 'RoomCreateRequest' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=8)
+src/main/java/com/parag/hrs/hotelbooking/http/RoomCreateRequest.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/http/RoomCreateRequest.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/http/RoomCreateRequest.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/http/RoomCreateRequest.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/http/RoomCreateRequest.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'hotel' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/http/RoomCreateRequest.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'roomType' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/http/RoomCreateRequest.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'roomPrice' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/http/RoomCreateRequest.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/repository/HotelRepository.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/repository/ReservationRepository.java:13:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/repository/RoomRepository.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationService.java:10:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationService.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationService.java:12:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'reserve': the method is declared in an interface type
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationService.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationService.java:14:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'cancel': the method is declared in an interface type
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationService.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationService.java:16:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'update': the method is declared in an interface type
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationService.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationService.java:18:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'search': the method is declared in an interface type
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationServiceImpl.java:24:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationServiceImpl.java:24:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationServiceImpl.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationServiceImpl.java:27:	LongVariable:	LongVariable: Avoid excessively long variable names like reservationRepository
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationServiceImpl.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationServiceImpl.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationServiceImpl.java:42:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'reservationOpt' could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationServiceImpl.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bookingId' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationServiceImpl.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationServiceImpl.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'reservationOpt' could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationServiceImpl.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'bookingId' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/ReservationServiceImpl.java:67:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'entities' is never used (overwritten on lines 85 and 89)
+src/main/java/com/parag/hrs/hotelbooking/service/RoomService.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/RoomService.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/RoomService.java:13:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'search': the method is declared in an interface type
+src/main/java/com/parag/hrs/hotelbooking/service/RoomService.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/RoomService.java:14:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'save': the method is declared in an interface type
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'hotel' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:42:	MissingOverride:	MissingOverride: The method 'save(RoomCreateRequest)' is missing an @Override annotation.
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:43:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'hotel' is never used (overwritten on lines 49 and 54)
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'roomList' could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'hotelOpt' could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:57:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'room' could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:60:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'hotel' is never used
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:64:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'hotel' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:64:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/parag/hrs/hotelbooking/service/RoomServiceImpl.java:65:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'room' could be declared final
+src/test/java/com/parag/hrs/hotelbooking/HotelbookingApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/parag/hrs/hotelbooking/HotelbookingApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/parag/hrs/hotelbooking/HotelbookingApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/parag/hrs/hotelbooking/HotelbookingApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
