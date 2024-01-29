@@ -6,6 +6,7 @@ import org.aspectj.apache.bcel.classfile.Module.Require;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -30,19 +31,19 @@ public class ReservationController {
 	@Autowired
 	private ReservationService reservationService;
 
-	@PostMapping(value = "/reserve", produces = "application/json", consumes = "application/json")
+	@PostMapping(value = "/reserve",  consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ReservationEntity reserve(@RequestBody ReservationRequest request) throws RoomNotFoundException {
 		    logger.info("Inside create reservation method of controller");
 			return reservationService.reserve(request);
 	}
 
-	@PutMapping(value = "/cancel", produces = "application/json")
+	@PutMapping(value = "/cancel", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ReservationEntity cancel(@RequestParam(value = "bookingId", required=true) Long bookingId) throws ReservationNotFoundException {
 		 logger.info("Inside cancel reservation method of controller");
 		return reservationService.cancel(bookingId);
 	}
 
-	@PutMapping(value = "/update", produces = "application/json")
+	@PutMapping(value = "/update", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ReservationEntity update(@RequestParam(value = "bookingId", required = true) Long bookingId,
 			@RequestBody ReservationRequest request)
 			throws RoomNotFoundException, ReservationNotFoundException, Exception {
@@ -50,7 +51,7 @@ public class ReservationController {
 		return reservationService.update(bookingId, request);
 	}
 
-	@GetMapping(value = "/search", produces = "application/json")
+	@GetMapping(value = "/search", produces = MediaType.APPLICATION_JSON_VALUE)
 	public List<ReservationEntity> search(@RequestParam(value = "bookingId", required = false) Long bookingId)
 			throws ReservationNotFoundException {
 		 logger.info("Inside search reservation method of controller");
